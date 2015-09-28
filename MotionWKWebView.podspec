@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name     = 'MotionWKWebView'
   s.version  = '0.1.0'
-  s.platform = :osx, '10.10'
+  s.platform = :ios, '8'
   s.license  = { type: 'MIT', file: 'MIT-LICENSE' }
   s.summary  = 'Exposes `WKWebView#evaluateJavaScript:completionHandler:` to RubyMotion'
   s.homepage = 'https://github.com/EtienneLem/MotionWKWebView'
